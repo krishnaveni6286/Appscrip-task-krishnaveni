@@ -1,0 +1,85 @@
+
+
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+     font-weight: 800;
+     line-height: 43.57px;
+     letter-spacing: 1px;
+     display: inline-block;
+}
+.list li{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 20px;
+     height: 24px;
+}
+.list{
+    position: absolute;
+    top: 90px;
+    left: 320px;
+    gap: 64px;
+}
+.heading1 {
+    position:absolute;
+    top: 178px;
+    left: 460px;
+    font-family: "simplon Norm";
+    size: 60px;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+    
+}
+
+.para{
+    position: absolute;
+    top: 230px;
+    left: 380px;
+    font-family: "simplon Norm";
+    font-weight: 400;
+    size: 22px;
+    line-height: 40px;
+
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.icons li {
+    margin-left: 20px;
+}
+
+.icons li:first-child {
+    margin-left: 0;
+}
+
+.icons li:nth-child(2) {
+    margin-left: 500px;
+    margin-right: auto;
+    text-align: center;
+}
+
+.icons li:nth-child(3),
+.icons li:nth-child(4),
+.icons li:nth-child(5),
+.icons li:nth-child(6),
+.icons li:nth-child(7) {
+    margin-left: 20px;
+}
+
+

@@ -1,0 +1,63 @@
+/* .list1 li{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 20px;
+     height: 24px;
+     font-size: 18px;
+     font-family: "Simplon Norm";
+     line-height: 20px;
+     font-weight: 700;
+}
+.list1{
+    position: absolute;
+    top: 380px;
+    gap: 64px;
+}
+.list-item3{
+    position: absolute;
+    left: 950px;
+}
+.hline{
+    width: 100%;
+} */
+
+
+/* List items styling */
+.list1 li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    height: 24px;
+    font-size: 18px;
+    font-family: "Simplon Norm";
+    line-height: 20px;
+    font-weight: 700;
+}
+
+/* Main container styling */
+.list1 {
+    position: absolute;
+    top: 380px;
+    width: 100%; /* Ensure the container takes up the full width */
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add padding to the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Specific styling for the third list item */
+.list-item3 {
+    margin-left: 560px; /* Automatically adjust the position to the right */
+}
+
+/* Horizontal line styling */
+.hline {
+    width: 100%; /* Full width */
+    border: none;
+    border-top: 1px solid 
+    #E5E5E5; /* Define the color of the line */
+    margin: 0; /* Remove default margin */
+    display: block;
+   
+}

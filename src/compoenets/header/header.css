@@ -1,0 +1,12 @@
+.icons{
+    margin-top: 10px;
+}
+
+
+.hline1 {
+    width:  100% !important; /* Ensures the hr takes up full width */
+    border: none; /* Removes default border */
+    border-top: 1px solid #000; /* Adds a solid top border */
+    margin-top: -5px;
+    
+}

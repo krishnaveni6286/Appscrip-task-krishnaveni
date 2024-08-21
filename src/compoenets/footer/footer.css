@@ -1,0 +1,79 @@
+
+.footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-item-1,
+.footer-item-2 {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+h1{
+    font-family: "Simplon Norm";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+p{
+    font-family: "Simplon Norm";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.footer-item-1 p{
+    margin-top: 40px;
+}
+.footer-item-1 input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-top: 60px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.footer-item-1 button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.footer-item-3,
+.footer-item-4,
+.footer-item-5 {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.footer-item-5 img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.footer div:last-child {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}

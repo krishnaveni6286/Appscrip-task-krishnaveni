@@ -1,0 +1,12 @@
+.Recommand{
+    background-color: white;
+    margin-top: 350px;
+    margin-left: 945px;
+    display: none;
+}
+.Recommand h3{
+    font-family: "Simplon Norm";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
